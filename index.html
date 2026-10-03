@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cloud Migration Readiness Assessment</title>
+    <meta name="description" content="Executive, interactive portal for the results of a Cloud Migration Readiness Assessment. All content is generated from data/assessment.json." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b2545'/%3E%3Crect x='7' y='17' width='4' height='8' rx='1' fill='%2386b6ef'/%3E%3Crect x='14' y='11' width='4' height='14' rx='1' fill='%233987e5'/%3E%3Crect x='21' y='7' width='4' height='18' rx='1' fill='%23ffffff'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot"><span class="brand-mark lg" aria-hidden="true"><span></span><span></span><span></span></span><p>Loading assessment data…</p></div>
+    </div>
+    <noscript>This portal requires JavaScript.</noscript>
+
+    <!-- Pipeline: JSON → catalog → analysis → decisions → roadmap → business case -->
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/model.js"></script>
+    <script src="assets/js/charts.js"></script>
+    <script src="assets/js/views/overview.js"></script>
+    <script src="assets/js/views/applications.js"></script>
+    <script src="assets/js/views/app-detail.js"></script>
+    <script src="assets/js/views/prioritization.js"></script>
+    <script src="assets/js/views/dependencies.js"></script>
+    <script src="assets/js/views/waves.js"></script>
+    <script src="assets/js/views/business-case.js"></script>
+    <script src="assets/js/views/landing-zone.js"></script>
+    <script src="assets/js/views/risks.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
